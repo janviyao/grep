@@ -250,7 +250,7 @@ let s:cmdTable = {
 	    \     'optprefix' : '-',
 	    \     'defopts' : '-s -n',
 	    \     'opts' : g:Grep_Options,
-	    \     'expropt' : '--',
+	    \     'expropt' : '-P',
 	    \     'nulldev' : g:Grep_Null_Device
 	    \   },
 	    \   'fgrep' : {
